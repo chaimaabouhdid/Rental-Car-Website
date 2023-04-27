@@ -1,0 +1,81 @@
+/* the colour of "you don't have an account?" */
+* {
+  color: rgb(0, 0, 0);
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #929cd1;
+  font-size: 25px;
+}
+
+.MainMenu {
+  /* background-color: #647063; */
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  justify-content: space-evenly;
+  border: #330f0f 1px solid;
+}
+
+.loginbox input:focus {
+  /* border-color: ; */
+  transition: all 0.2s ease-in-out;
+}
+.loginbox input:placeholder {
+  transition: all 0.2s ease-in-out;
+}
+
+.loginbox input:focus::placeholder {
+  color: #272323;
+  position: relative;
+  z-index: 1;
+  top: -20px;
+  display: default;
+  transition: all 0.2s ease-in-out;
+}
+
+.loginbox {
+  /* background-color: #86a07a; */
+  background-color: #dfe0de;
+  width: 40%;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #330f0f;
+}
+
+/* Style the links inside the navigation bar */
+.MainMenu a {
+  float: right;
+  text-align: center;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.MainMenu a:hover {
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+a {
+  color: #462a1b;
+  text-decoration: none;
+}
+
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.photosize {
+  width: 100%;
+  height: 100%;
+}
+
+
+	
